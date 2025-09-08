@@ -3,7 +3,7 @@ public class Car {
     private String licensePlate;
     private String chassisNumber;
     private String brandName;
-    
+    // Default constructor
     public Car() {
         this.color = "Unknown";
         this.licensePlate = "Unknown";
@@ -11,7 +11,7 @@ public class Car {
         this.brandName = "Unknown";
     }
 
-  
+    // Parameterized constructor
     public Car(String color, String licensePlate, String chassisNumber, String brandName) {
         this.color = color;
         this.licensePlate = licensePlate;
